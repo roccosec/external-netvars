@@ -1,0 +1,91 @@
+#include "main.h"
+
+int main( )
+{
+	g_api_handler( )->get_latest_update( );
+	Sleep( 1200 );
+
+	g_api_handler( )->get_offset( "cs_gamerules_data" );
+	g_api_handler( )->get_offset( "m_ArmorValue" );
+	g_api_handler( )->get_offset( "m_Collision" );
+	g_api_handler( )->get_offset( "m_CollisionGroup" );
+	g_api_handler( )->get_offset( "m_Local" );
+	g_api_handler( )->get_offset( "m_MoveType" );
+	g_api_handler( )->get_offset( "m_OriginalOwnerXuidHigh" );
+	g_api_handler( )->get_offset( "m_OriginalOwnerXuidLow" );
+	g_api_handler( )->get_offset( "m_SurvivalGameRuleDecisionTypes" );
+	g_api_handler( )->get_offset( "m_SurvivalRules" );
+	g_api_handler( )->get_offset( "m_aimPunchAngle" );
+	g_api_handler( )->get_offset( "m_aimPunchAngleVel" );
+	g_api_handler( )->get_offset( "m_angEyeAnglesX" );
+	g_api_handler( )->get_offset( "m_angEyeAnglesY" );
+	g_api_handler( )->get_offset( "m_bBombPlanted" );
+	g_api_handler( )->get_offset( "m_bFreezePeriod" );
+	g_api_handler( )->get_offset( "m_bGunGameImmunity" );
+	g_api_handler( )->get_offset( "m_bHasDefuser" );
+	g_api_handler( )->get_offset( "m_bHasHelmet" );
+	g_api_handler( )->get_offset( "m_bInReload" );
+	g_api_handler( )->get_offset( "m_bIsDefusing" );
+	g_api_handler( )->get_offset( "m_bIsQueuedMatchmaking" );
+	g_api_handler( )->get_offset( "m_bIsScoped" );
+	g_api_handler( )->get_offset( "m_bIsValveDS" );
+	g_api_handler( )->get_offset( "m_bSpotted" );
+	g_api_handler( )->get_offset( "m_bSpottedByMask" );
+	g_api_handler( )->get_offset( "m_clrRender" );
+	g_api_handler( )->get_offset( "m_dwBoneMatrix" );
+	g_api_handler( )->get_offset( "m_fAccuracyPenalty" );
+	g_api_handler( )->get_offset( "m_fFlags" );
+	g_api_handler( )->get_offset( "m_flC4Blow" );
+	g_api_handler( )->get_offset( "m_flDefuseCountDown" );
+	g_api_handler( )->get_offset( "m_flDefuseLength" );
+	g_api_handler( )->get_offset( "m_flFallbackWear" );
+	g_api_handler( )->get_offset( "m_flFlashDuration" );
+	g_api_handler( )->get_offset( "m_flFlashMaxAlpha" );
+	g_api_handler( )->get_offset( "m_flLastBoneSetupTime" );
+	g_api_handler( )->get_offset( "m_flLowerBodyYawTarget" );
+	g_api_handler( )->get_offset( "m_flNextAttack" );
+	g_api_handler( )->get_offset( "m_flNextPrimaryAttack" );
+	g_api_handler( )->get_offset( "m_flSimulationTime" );
+	g_api_handler( )->get_offset( "m_flTimerLength" );
+	g_api_handler( )->get_offset( "m_hActiveWeapon" );
+	g_api_handler( )->get_offset( "m_hMyWeapons" );
+	g_api_handler( )->get_offset( "m_hObserverTarget" );
+	g_api_handler( )->get_offset( "m_hOwner" );
+	g_api_handler( )->get_offset( "m_hOwnerEntity" );
+	g_api_handler( )->get_offset( "m_iAccountID" );
+	g_api_handler( )->get_offset( "m_iClip1" );
+	g_api_handler( )->get_offset( "m_iCompetitiveRanking" );
+	g_api_handler( )->get_offset( "m_iCompetitiveWins" );
+	g_api_handler( )->get_offset( "m_iCrosshairId" );
+	g_api_handler( )->get_offset( "m_iEntityQuality" );
+	g_api_handler( )->get_offset( "m_iFOV" );
+	g_api_handler( )->get_offset( "m_iFOVStart" );
+	g_api_handler( )->get_offset( "m_iGlowIndex" );
+	g_api_handler( )->get_offset( "m_iHealth" );
+	g_api_handler( )->get_offset( "m_iItemDefinitionIndex" );
+	g_api_handler( )->get_offset( "m_iItemIDHigh" );
+	g_api_handler( )->get_offset( "m_iMostRecentModelBoneCounter" );
+	g_api_handler( )->get_offset( "m_iObserverMode" );
+	g_api_handler( )->get_offset( "m_iShotsFired" );
+	g_api_handler( )->get_offset( "m_iState" );
+	g_api_handler( )->get_offset( "m_iTeamNum" );
+	g_api_handler( )->get_offset( "m_lifeState" );
+	g_api_handler( )->get_offset( "m_nFallbackPaintKit" );
+	g_api_handler( )->get_offset( "m_nFallbackSeed" );
+	g_api_handler( )->get_offset( "m_nFallbackStatTrak" );
+	g_api_handler( )->get_offset( "m_nForceBone" );
+	g_api_handler( )->get_offset( "m_nTickBase" );
+	g_api_handler( )->get_offset( "m_rgflCoordinateFrame" );
+	g_api_handler( )->get_offset( "m_szCustomName" );
+	g_api_handler( )->get_offset( "m_szLastPlaceName" );
+	g_api_handler( )->get_offset( "m_thirdPersonViewAngles" );
+	g_api_handler( )->get_offset( "m_vecOrigin" );
+	g_api_handler( )->get_offset( "m_vecVelocity" );
+	g_api_handler( )->get_offset( "m_vecViewOffset" );
+	g_api_handler( )->get_offset( "m_viewPunchAngle" );
+
+	std::string m_title = "Got offsets: " + std::to_string( g_api_handler( )->get_offsets_amount( ) );
+
+	SetConsoleTitleA( m_title.c_str( ) );
+	getchar( );
+}
